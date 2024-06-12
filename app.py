@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-
+pip install nltk
 import nltk
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
