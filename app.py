@@ -1,9 +1,11 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+import nltk
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
 import streamlit as st
 import pandas as pd
-import nltk
 import string
 import re
 from nltk.corpus import stopwords
